@@ -10,7 +10,7 @@ div {
     background-image:      -o-linear-gradient(left, #003500, #008800);
 }
 
-#ball:hover {
+div #ball:hover {
   background-color: #1A13FF;
 }
 
