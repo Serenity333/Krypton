@@ -10,6 +10,10 @@ div {
     background-image:      -o-linear-gradient(left, #003500, #008800);
 }
 
+#ball:hover {
+  background-color: red;
+}
+
 body {
     background-image: url('http://bit.ly/UpQgJ6');
     repeat: no-repeat;
