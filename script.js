@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $('#ball').click(function () {
-        $('#ball').fadeOut('fast');
+        $('#ball').fadeOut('500');
     });
     
    
