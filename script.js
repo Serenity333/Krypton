@@ -3,8 +3,6 @@ $(document).ready(function() {
         $('#ball').fadeOut('fast');
     });
     
-    $('#ball').hover(function() {
-        $('#ball').addClass('red');
-    });
+   
     
 });
