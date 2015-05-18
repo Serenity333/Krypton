@@ -1,5 +1,5 @@
 $(document).ready(function() {
     $('#ball').click(function() {
-        $('#ball').fadeOut('500');
+        $('#ball').effect('bounce',{times:3},500);
     });
    });
