@@ -8,6 +8,8 @@ div {
     background-image:    -moz-linear-gradient(left, #003500, #008800);
     background-image:     -ms-linear-gradient(left, #003500, #008800);
     background-image:      -o-linear-gradient(left, #003500, #008800);
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 div #ball:hover {
