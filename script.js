@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $('#ball').click(function() {
-        $('#ball').fadeOut('500');
+        $('#ball').effect('slide');
     });
     $('#ball2').click(function() {
         $('#ball2').effect('bounce', {time:5}, 1000);
