@@ -1,12 +1,12 @@
 $(document).ready(function() {
     $('#ball').click(function() {
-        $('#ball').slideUp("slow");
+        $('#ball').toggle("bounce", {times:5}, "slow");
     });
     $('#ballb').click(function() {
-        $('#ballb').bounce({time:5}, 1000);
+        $('#ballb').toggle("bounce", {time:5}, "fast");
     });
     $('#ballc').click(function() {
-        $('#ballc').bounce({time:3}, 500);
+        $('#ballc').slideToggle("slow");
     });
     $('#balld').click(function() {
         $('#balld').slideDown("fast");
