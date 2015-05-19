@@ -1,14 +1,14 @@
 $(document).ready(function() {
     $('#ball').click(function() {
-        $('#ball').effect('slide');
+        $('#ball').slideUp("slow");
     });
     $('#ballb').click(function() {
-        $('#ballb').effect('bounce', {time:5}, 1000);
+        $('#ballb').bounce({time:5}, 1000);
     });
     $('#ballc').click(function() {
-        $('#ballc').effect('bounce', {time:3}, 500);
+        $('#ballc').bounce({time:3}, 500);
     });
     $('#balld').click(function() {
-        $('#balld').effect('slide');
+        $('#balld').slideDown("fast");
     });
    });
