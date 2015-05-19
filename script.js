@@ -1,8 +1,8 @@
 $(document).ready(function() {
     $('#ball').click(function() {
-        $('#ball').toggle('bounce', {times:5}, 'slow');
+        $('#ball').slideToggle('slow');
     });
     $('#ballb').click(function() {
-        $('#ballb').toggle('bounce', {time:5}, 'fast');
+        $('#ballb').slideToggle('bounce', {time:5}, 'fast');
     });
    });
